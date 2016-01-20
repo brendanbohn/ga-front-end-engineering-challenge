@@ -1,0 +1,87 @@
+html {
+	font-family: Roboto;
+	color: #494949;
+}
+body {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: #494949;
+}
+a:hover {
+	text-decoration: none;
+	color: #bfbfbf;
+}
+
+/*//////////*/
+/* 	NAVBAR 	*/
+/*//////////*/
+
+nav {
+	background-color: #83EDD9;
+	height: 50px;
+	width: 100vw;
+}
+#navbar-header {
+	position: relative;
+	top: 16px;
+	left: 30px;
+}
+#navbar-buttons {
+	position: absolute;
+	top: 0;
+	right: 0;
+	list-style-type: none;
+	padding: 0 30px;
+}
+#navbar-buttons li {
+	display: inline;
+}
+#navbar-buttons a {
+	padding: 16px 10px 13px 10px;
+	font-weight: 100;
+}
+
+/*//////////////*/
+/* 	LOGIN DIV 	*/
+/*//////////////*/
+
+#login-div {
+	position: absolute;
+	top: 50px;
+	right: 30px;
+	height: 300px;
+	width: 300px;
+	background-color: #d3f8f2;
+	border-radius: 0 0 5px 5px;
+}
+form {
+	padding: 35px 25px 25px 25px;
+}
+input {
+	margin: 20px 0;
+	padding: 10px 25px;
+	width: 200px;
+	border-radius: 5px;
+	border: none;
+}
+button {
+	float: right;
+	background-color: #83EDD9;
+	border: none;
+	border-radius: 5px;
+	padding: 15px 30px;
+	font-size: 16px;
+	transition: .5s;
+}
+button:hover {
+	background-color: #37e2c2;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+
+
+
