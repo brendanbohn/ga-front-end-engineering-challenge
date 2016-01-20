@@ -81,7 +81,43 @@ button:hover {
 	color: white;
 	cursor: pointer;
 }
+#invalid-email {
+	padding: 0 0 0 20px;
+	font-size: 12px;
+	color: red;
+}
 
+/*////////////*/
+/* 	WELCOME 	*/
+/*////////////*/
 
+#welcome {
+	margin: 0 auto;
+}
+#welcome > h1 {
+	font-weight: 100;
+	font-size: 100px;
+	text-align: center;
+}
+#welcome > h2 {
+	font-weight: 300;
+	text-align: center;
+}
+
+/*//////////////////*/
+/* 	MEDIA QUERIES 	*/
+/*//////////////////*/
+
+@media screen and (max-width: 600px) {
+	#login-div {
+		width: 100vw;
+		position: absolute;
+		top: 50px;
+		right: 0;
+	}
+	input {
+		width: 90%;
+	}
+}
 
 
