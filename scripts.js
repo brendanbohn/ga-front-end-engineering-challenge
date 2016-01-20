@@ -25,13 +25,16 @@ $(document).ready(function() {
 	$('#login-form').on('submit', function(e) {
 		e.preventDefault();
 		$('#invalid-email').hide();
-		var user = $('#email-input').val();
+		var email = $('#email-input').val();
+		var user = email;
 		console.log(user);
 		console.log('Clicked Sign in button on form');
 		$loginNavButton.css("background-color","inherit");
 		$loginNavButton.hide();
 		$logoutButton.show();
 		$loginDiv.hide();
+		$('#password-input').val('');
+		$('#email-input').val('');
 		$('body').append("<div id='welcome'><h1>Welcome, <h1><h2>" + user + "<h2></div>");
 	});
 
